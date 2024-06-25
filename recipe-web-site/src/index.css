@@ -1,0 +1,125 @@
+
+/* עיצוב לדף enter */
+.startingToEnter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('../src/images/1.jpeg');
+
+  background-size: cover;
+  background-position: center;
+  color: white; /* צבע הטקסט במקרה זה יהיה לבן */
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  /* background-color: #f0f0f0; */
+  color: #f9f7f7;
+  background-image: url('../src/images/1.jpeg');
+  background-color:  #e1e1dfa4;
+}
+
+
+.titlestart {
+  background-color: #806c3474;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  /* position:fixed; */
+ }
+
+.titlestart h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+.titlestart p {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+/* עיצוב של AddRecipe */
+/* עיצוב כללי לקומפוננטה */
+.addrecipe {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f3e9e9b7;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* עיצוב לכלל האינפוטים */
+.addrecipe input {
+  margin: 5px 0;
+  padding: 10px;
+  border: 1px solid #f2eded;
+  border-radius: 4px;
+}
+
+/* עיצוב ללייבלים */
+.addrecipe label {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* עיצוב לכפתור הוספת מוצר */
+.addrecipe button {
+  background-color: #7a6b34f0;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.addrecipe button:hover {
+  background-color: #070606e3;
+}
+
+/* עיצוב לכפתור שליחת הטופס */
+.addrecipe .sendit {
+  background-color: #0d0c0a78;
+  color: #faf6f6;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+.addrecipe .sendit:hover {
+  background-color: #0c0c0b;
+  color: white;
+}
+
+/* עיצוב לקישור "Back to Recipes" */
+.addrecipe .rey {
+ 
+  color: #090907f1;
+  text-decoration: none;
+  margin-top: 10px;
+  display: block;
+}
+
+.addrecipe .rey:hover {
+  text-decoration: underline;
+}

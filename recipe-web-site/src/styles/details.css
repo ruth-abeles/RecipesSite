@@ -1,0 +1,96 @@
+/* .details{
+    background-color: rgba(240, 255, 255, 0.297);
+    color:rgb(241, 241, 243)
+}
+.underdisplay{
+    background-color: rgba(240, 255, 255, 0.553);
+    color:rgb(19, 19, 20)
+}
+ .l:hover{
+ color:rgb(12, 12, 12)
+} */
+
+
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply a background color to the entire page */
+body {
+  background-color: #faf4f46f;
+  font-family: 'Arial', sans-serif; /* Use a common font for better compatibility */
+}
+
+/* Style the detailsOfRecipe container */
+.details {
+  background-color: #ffffff85;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.underdisplay{
+  background-color: #6d6969b0;
+  color:#fff
+  
+}
+
+/* Style the headers */
+.details h1,
+.details h2,
+.details h3,
+.details h4,
+.details h5,
+.details h6 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Style the recipe image */
+.rcpImg {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+/* Style the ingredients list */
+.details .prepareRecipe {
+  margin-top: 20px;
+}
+
+.details .prepareRecipe h4 {
+  color: #555;
+  margin-bottom: 10px;
+}
+
+/* Style the back to recipes link */
+.details a {
+  text-decoration: none;
+  color: #968458;
+  margin-right: 8px;
+}
+
+/* Style the action buttons */
+.details button {
+  margin-top: 10px;
+  margin-right: 8px;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  color: #111213;
+}
+
+.details button:hover {
+  background-color: #111213;
+  color: #fff;
+}
